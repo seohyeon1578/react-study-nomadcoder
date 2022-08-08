@@ -1,6 +1,7 @@
 import React from "react";
-import Count from "./components/count";
-import Input from "./components/input";
+import Count from "./components/Count";
+import Input from "./components/Input";
+import Tab from "./components/Tab";
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
                  alignItems: 'center',
                  height: '100vh'}}>
       {/* <Count/> */}
-      <Input />
+      {/* <Input /> */}
+      <Tab />
     </div>
   );
 };
