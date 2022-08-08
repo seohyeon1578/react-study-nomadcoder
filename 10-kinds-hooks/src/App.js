@@ -1,8 +1,9 @@
 import React from "react";
-import Count from "./components/Count";
-import Input from "./components/Input";
-import Tab from "./components/Tab";
-import Title from "./components/Title";
+import Click from "./components/click";
+import Count from "./components/count";
+import Input from "./components/input";
+import Tab from "./components/tab";
+import Title from "./components/title";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <Count/> */}
       {/* <Input /> */}
       {/* <Tab /> */}
-      <Title />
+      {/* <Title /> */}
+      <Click />
     </div>
   );
 };
