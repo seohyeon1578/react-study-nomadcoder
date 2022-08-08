@@ -2,10 +2,10 @@ import React,{ useState } from "react"
 
 export const useTab = (initialTab, allTabs) => {
   const [currentIndex, setCurrentIndex] = useState(initialTab);
-
-  // if(!allTabs || Array.isArray(allTabs)){
-  //   return
-  // }
+  
+  if(!allTabs || !Array.isArray(allTabs)){
+    return
+  }
 
   return {
     currentItem: allTabs[currentIndex],
