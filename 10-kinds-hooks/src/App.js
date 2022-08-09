@@ -1,5 +1,6 @@
 import React from "react";
 import Click from "./components/click";
+import Confirm from "./components/confirm";
 import Count from "./components/count";
 import Input from "./components/input";
 import Tab from "./components/tab";
@@ -15,7 +16,8 @@ function App() {
       {/* <Input /> */}
       {/* <Tab /> */}
       {/* <Title /> */}
-      <Click />
+      {/* <Click /> */}
+      <Confirm />
     </div>
   );
 };
