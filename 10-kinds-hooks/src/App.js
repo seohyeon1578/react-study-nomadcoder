@@ -7,6 +7,7 @@ import Fullscreen from "./components/fullscreen";
 import Input from "./components/input";
 import Leave from "./components/leave";
 import Newwork from "./components/network";
+import Notification from "./components/notification";
 import Prevent from "./components/prevent";
 import Scroll from "./components/scroll";
 import Tab from "./components/tab";
@@ -29,7 +30,8 @@ function App() {
       {/* <FadeIn /> */}
       {/* <Newwork /> */}
       {/* <Scroll /> */}
-      <Fullscreen />
+      {/* <Fullscreen /> */}
+      <Notification />
     </div>
   );
 };

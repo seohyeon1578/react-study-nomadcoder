@@ -1,5 +1,5 @@
 import React from "react";
-import useFadeIn from "../hooks/useFadeIn";
+import { useFadeIn } from "../hooks/useFadeIn";
 
 const FadeIn = () => {
   const fadeInH1 = useFadeIn(1,2);

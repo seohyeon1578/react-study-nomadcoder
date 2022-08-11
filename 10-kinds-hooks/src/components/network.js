@@ -1,5 +1,5 @@
 import React from "react";
-import useNetwork from "../hooks/useNetwork";
+import { useNetwork } from "../hooks/useNetwork";
 
 const Newwork = () => {
   const handleNetworkChange = onLine => {

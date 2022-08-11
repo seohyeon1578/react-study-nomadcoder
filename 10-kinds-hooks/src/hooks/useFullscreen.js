@@ -1,5 +1,6 @@
 import { useRef } from "react";
-const useFullscreen = (callback) => {
+
+export const useFullscreen = (callback) => {
   const element = useRef();
 
   const runCb = (isFullscreen) => {
@@ -41,5 +42,3 @@ const useFullscreen = (callback) => {
 
   return { element,triggerFull,exitFull };
 };
-
-export default useFullscreen;
