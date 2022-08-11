@@ -7,15 +7,16 @@ import Input from "./components/input";
 import Leave from "./components/leave";
 import Newwork from "./components/network";
 import Prevent from "./components/prevent";
+import Scroll from "./components/scroll";
 import Tab from "./components/tab";
 import Title from "./components/title";
 
 function App() {
   return (
     <div style={{display:'flex',
-                 justifyContent: 'center',
-                 alignItems: 'center',
-                 height: '100vh'}}>
+                //  justifyContent: 'center',
+                //  alignItems: 'center',
+                 height: '1000vh'}}>
       {/* <Count/> */}
       {/* <Input /> */}
       {/* <Tab /> */}
@@ -25,7 +26,8 @@ function App() {
       {/* <Prevent /> */}
       {/* <Leave /> */}
       {/* <FadeIn /> */}
-      <Newwork />
+      {/* <Newwork /> */}
+      <Scroll />
     </div>
   );
 };
