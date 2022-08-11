@@ -1,4 +1,5 @@
 import React from "react";
+import Axios from "./components/axios";
 import Click from "./components/click";
 import Confirm from "./components/confirm";
 import Count from "./components/count";
@@ -31,7 +32,8 @@ function App() {
       {/* <Newwork /> */}
       {/* <Scroll /> */}
       {/* <Fullscreen /> */}
-      <Notification />
+      {/* <Notification /> */}
+      <Axios />
     </div>
   );
 };
