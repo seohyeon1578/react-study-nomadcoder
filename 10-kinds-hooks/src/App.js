@@ -3,6 +3,7 @@ import Click from "./components/click";
 import Confirm from "./components/confirm";
 import Count from "./components/count";
 import Input from "./components/input";
+import Leave from "./components/leave";
 import Prevent from "./components/prevent";
 import Tab from "./components/tab";
 import Title from "./components/title";
@@ -20,6 +21,7 @@ function App() {
       {/* <Click /> */}
       {/* <Confirm /> */}
       <Prevent />
+      <Leave />
     </div>
   );
 };
