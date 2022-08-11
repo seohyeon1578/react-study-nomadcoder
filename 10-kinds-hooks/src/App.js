@@ -3,6 +3,7 @@ import Click from "./components/click";
 import Confirm from "./components/confirm";
 import Count from "./components/count";
 import FadeIn from "./components/fadeIn";
+import Fullscreen from "./components/fullscreen";
 import Input from "./components/input";
 import Leave from "./components/leave";
 import Newwork from "./components/network";
@@ -14,9 +15,9 @@ import Title from "./components/title";
 function App() {
   return (
     <div style={{display:'flex',
-                //  justifyContent: 'center',
-                //  alignItems: 'center',
-                 height: '1000vh'}}>
+                 justifyContent: 'center',
+                 alignItems: 'center',
+                 height: '100vh'}}>
       {/* <Count/> */}
       {/* <Input /> */}
       {/* <Tab /> */}
@@ -27,7 +28,8 @@ function App() {
       {/* <Leave /> */}
       {/* <FadeIn /> */}
       {/* <Newwork /> */}
-      <Scroll />
+      {/* <Scroll /> */}
+      <Fullscreen />
     </div>
   );
 };
