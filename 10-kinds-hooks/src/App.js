@@ -2,8 +2,10 @@ import React from "react";
 import Click from "./components/click";
 import Confirm from "./components/confirm";
 import Count from "./components/count";
+import FadeIn from "./components/fadeIn";
 import Input from "./components/input";
 import Leave from "./components/leave";
+import Newwork from "./components/network";
 import Prevent from "./components/prevent";
 import Tab from "./components/tab";
 import Title from "./components/title";
@@ -20,8 +22,10 @@ function App() {
       {/* <Title /> */}
       {/* <Click /> */}
       {/* <Confirm /> */}
-      <Prevent />
-      <Leave />
+      {/* <Prevent /> */}
+      {/* <Leave /> */}
+      {/* <FadeIn /> */}
+      <Newwork />
     </div>
   );
 };
